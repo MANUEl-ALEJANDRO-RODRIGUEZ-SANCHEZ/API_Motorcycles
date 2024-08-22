@@ -1,0 +1,654 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MotoShop</title>
+    <link rel="icon" type="image/png" href="./images/icons/icono.png" />
+    <meta name="author" content="Manuel Rodriguez" />
+    <meta
+      name="keywords"
+      content="landing, page, motorcycles, motocicletas, venta, API"
+    />
+    <meta
+      name="description"
+      content="Landing page de una concencionaria de motocicletas usadas que proporciona el consumo de una API de motocicletas asi como un buscador de imagenes"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.2.1/hamburgers.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/reflection_scroll.css" />
+  </head>
+  <body>
+    <header>
+      <img
+        id="logo-menu"
+        src="./images/icons/logo.png"
+        alt="Logotipo MotoShop"
+      />
+      <h1 id="title">MotoShop<span>Ride with us</span></h1>
+      <button class="panel-btn hamburger hamburger--vortex" type="button">
+        <span class="hamburger-box">
+          <span class="hamburger-inner"></span>
+        </span>
+      </button>
+    </header>
+    <aside class="panel">
+      <nav class="menu">
+        <a href="#">Inicio</a>
+        <a href="#sct-expo">Exposicion</a>
+        <a href="#sct-browser">Buscador</a>
+      </nav>
+    </aside>
+    <main>
+      <div class="slider-container">
+        <div class="slider">
+          <ul>
+            <li><img src="./images/slider/1.png" alt="Logo" /></li>
+            <li><img src="./images/slider/2.png" alt="Motocicletas" /></li>
+            <li><img src="./images/slider/3.png" alt="Personalizacion" /></li>
+            <li><img src="./images/slider/4.png" alt="Refacciones" /></li>
+            <li><img src="./images/slider/5.png" alt="Accesorios" /></li>
+            <li><img src="./images/slider/6.png" alt="Taller" /></li>
+          </ul>
+        </div>
+      </div>
+      <div class="reflection-scroll"  id="sct-expo">
+        <div class="content">
+          <h2 class="content__title">Naked</h2>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/naked1.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">NKR 250</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/naked2.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">Duke 390</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/naked3.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">Z 400</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/naked4.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">MT 07</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/naked5.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">Gixxer 250</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/naked6.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">NS200</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <h2 class="content__title">Trabajo</h2>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/trabajo1.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">Huracan</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/trabajo2.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">CGL 125</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/trabajo3.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">FT 150</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <h2 class="content__title">Adventure</h2>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/adventure1.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">Adventure 390</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/adventure2.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">Hypersport 250</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/adventure3.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">V-Strom 1050DE</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <h2 class="content__title">Scooter</h2>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/scooter1.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">CZD 300</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/scooter2.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">Avenis 125</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/scooter3.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">Citi 150 Off</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <h2 class="content__title">Custom</h2>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/chopper1.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">Rebel</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/chopper2.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">CL 150</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/chopper3.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">RAYO ELITE 250</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <h2 class="content__title">Deportivas</h2>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/sport1.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">GSX-R1000R</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/sport2.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">SuperSport 950</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <figure class="item">
+            <div class="item__inner">
+              <div class="item__img">
+                <div
+                  class="item__img-inner"
+                  style="background-image: url(images/categories/sport3.png)"
+                ></div>
+              </div>
+              <figcaption class="item__caption">
+                <h3 class="item__caption-title">R6 250</h3>
+              </figcaption>
+            </div>
+          </figure>
+          <h2 class="content__title" style="font-size: 5rem;">Y mucho mas...</h2>
+        </div>
+        <div class="wrap">
+          <div class="content content--reflection">
+            <h2 class="content__title"></h2>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <h2 class="content__title"></h2>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <h2 class="content__title"></h2>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <h2 class="content__title"></h2>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+            <figure class="item">
+              <div class="item__inner">
+                <div class="item__img">
+                  <div
+                    class="item__img-inner"
+                    style="background-image: url()"
+                  ></div>
+                </div>
+                <figcaption class="item__caption">
+                  <h3 class="item__caption-title"></h3>
+                </figcaption>
+              </div>
+            </figure>
+          </div>
+        </div>
+      </div>
+
+      <br><br><br><br><br>
+
+      <section id="sct-browser">
+        <h2>Buscador de motocicletas: </h2><hr>
+        <div id="form-results">
+          <form action="" id="form-browser">
+            <label for="txtBrand">Marca: </label>
+            <input type="text" name="txtBrand" id="txtBrand" required placeholder="Ingrese la marca...">
+            <label for="txtModel">Modelo: </label>
+            <input type="text" name="txtModel" id="txtModel" required placeholder="Ingrese el modelo...">
+            <input type="submit" value="Buscar">
+          </form>
+          <div id="resultBrowser">
+          </div>
+        </div>
+      </section>
+      <section id="img-browser">
+      </section>
+
+      <br><br><br><br><br>
+
+    </main>
+
+    <p style="font-size: 15px;">
+      Nota: En caso de no visualizar correctamente la landing page favor de visitar el siguiente enlace para su visualizacion en un video:
+      <a href="https://youtu.be/cApHsYVXnL8" target="_blank">Video de ejecucion</a>
+    </p>
+
+    <footer>
+      <p id="footer-p"></p>
+    </footer>
+
+    <div class="clock-container">
+      <p class="clock" id="clock"></p>
+    </div>
+
+    <script type="module" src="app.js"></script>
+    <script src="functions/imagesloaded.pkgd.min.js"></script>
+    <script src="functions/gsap.min.js"></script>
+    <script src="functions/ScrollTrigger.min.js"></script>
+    <script src="functions/lenis.min.js"></script>
+    <script type="module" src="functions/index.js"></script>
+  </body>
+</html>
