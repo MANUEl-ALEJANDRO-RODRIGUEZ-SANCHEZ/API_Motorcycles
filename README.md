@@ -36,27 +36,15 @@ Este proyecto está diseñado para demostrar el uso de peticiones asincrónicas 
 - **Fetch API:** Se utiliza para realizar peticiones a la API de motocicletas y obtener los datos necesarios.
 - **Promesas y Async/Await:** La lógica de las peticiones está manejada usando promesas, lo que asegura que la página no se congele mientras espera los datos de la API.
 - **Manejo de Errores:** El código está preparado para manejar errores comunes, como problemas de red o respuestas inválidas de la API.
-- **Renderizado Dinámico:** Los resultados de la búsqueda se renderizan dinámicamente en la página mediante manipulación del DOM.
-
-## 📚 Recursos Adicionales
-
-- [Documentación de la API de Motocicletas](#) *(Reemplazar con el enlace real)*
-- [Documentación del Buscador Custom](#) *(Reemplazar con el enlace real)*
-- [Guía de Introducción a Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch)
-
-## 🧑‍💻 Contribuciones
-
-¡Las contribuciones son bienvenidas! Si tienes alguna mejora o nueva funcionalidad que te gustaría añadir, sigue estos pasos:
-
-1. Haz un fork de este repositorio.
-2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
-3. Realiza tus cambios y haz un commit (`git commit -m 'Añadida nueva funcionalidad'`).
-4. Sube tu rama (`git push origin feature/nueva-funcionalidad`).
-5. Abre un Pull Request.
+- **Renderizado Dinámico:** Los resultados de la búsqueda se renderizan dinámicamente en la página mediante manipulación del DOM
 
 ## 📧 Contacto
 
 Si tienes alguna pregunta o sugerencia, no dudes en contactar conmigo:
 
-- **Correo Electrónico:** tu-email@example.com
-- **GitHub:** [tu-usuario](https://github.com/tu-usuario)
+- **Correo Electrónico:** manuel.rodriguez9120@alumnos.udg.mx
+- **GitHub:** [tu-usuario](https://github.com/MANUEl-ALEJANDRO-RODRIGUEZ-SANCHEZ)
+
+## Author
+
+Manuel Rodriguez 
